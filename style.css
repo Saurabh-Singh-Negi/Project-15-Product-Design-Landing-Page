@@ -17,7 +17,6 @@ body {
 
 header {
     background-color: #000;
-    height: 700px;
     width: 100%;
     border: none;
 }
@@ -296,6 +295,20 @@ nav {
 
     .link1 {
         font-size: 2rem;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
     }
 }
 
