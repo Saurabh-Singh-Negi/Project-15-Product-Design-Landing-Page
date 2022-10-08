@@ -289,5 +289,15 @@ nav {
     width:40px;
 }
 
+@media screen and (max-width:900px) {
+    .link2, .link3, .link4, .link5 {
+        display: none;
+    }
+
+    .link1 {
+        font-size: 2rem;
+    }
+}
+
 
 
